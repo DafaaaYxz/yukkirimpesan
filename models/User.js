@@ -3,8 +3,8 @@ const { Redis } = require('@upstash/redis');
 
 // Paste URL & TOKEN Upstash di sini
 const redis = new Redis({
-  url: 'MASUKKAN_URL_UPSTASH_DISINI',
-  token: 'MASUKKAN_TOKEN_UPSTASH_DISINI',
+  url: 'https://growing-firefly-50232.upstash.io',
+  token: 'AcQ4AAIncDFlYjI2ZWM2ODhmOGQ0N2YwOTI1Njg5ZDA3ZjRjMDdhMHAxNTAyMzI',
 });
 
 const User = {
